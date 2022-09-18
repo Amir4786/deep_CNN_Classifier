@@ -1,3 +1,9 @@
+tensorflow
+pandas
+notebook
+numpy
+matplotlib
+seaborn
 
 
 ## Dev Requirements
