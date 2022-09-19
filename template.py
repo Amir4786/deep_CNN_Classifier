@@ -7,13 +7,13 @@ logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:%(message)s:')
 package_name="deepClassifier"
 list_of_files=[
     ".github/workflows/.gitkeep",
-    f"src/{package_name}/__init__.py",
-    f"src/{package_name}/components/__init__.py",
-    f"src/{package_name}/configs/__init__.py",
-    f"src/{package_name}/utils/__init__.py",
-    f"src/{package_name}/pipeline/__init__.py",
-    f"src/{package_name}/entity/__init__.py",
-    f"src/{package_name}/constants/__init__.py",
+    "src/deepClassifier/__init__.py",
+    "src/deepClassifier/components/__init__.py",
+    "src/deepClassifier/configs/__init__.py",
+    "src/deepClassifier/utils/__init__.py",
+    "src/deepClassifier/pipeline/__init__.py",
+    "src/deepClassifier/entity/__init__.py",
+    "src/deepClassifier/constants/__init__.py",
     "tests/__init__.py"
     "tests/units/__init__.py"
     "tests/integration/__init__.py"

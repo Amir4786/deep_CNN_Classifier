@@ -1,9 +1,9 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from deepClassifier import logger
-import jasin
-import jiblib
+from src.deepClassifier import logger
+import json
+import joblib
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
@@ -43,7 +43,7 @@ def create_directories(path_to_directories: list, verbose=True):
     """
     
     for path in path_to_directories:
-        os.makedir(path, exist_ok=True)
+        os.makedirs(path, exist_ok=True)
         if verbose:
             logger.info(f"Create directory at: {path}")
             
