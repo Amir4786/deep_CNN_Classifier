@@ -49,14 +49,14 @@ def create_directories(path_to_directories: list, verbose=True):
             
 @ensure_annotations
 def save_json(path: Path, data: dict):
-    with open(path,"w") as f:
-        json.dump(data,f,indent=4)
-    logger.info(f"json file saved at: {path}")
-    
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4)
+    logger.info(f"json file saved at: {path}")    
+
 @ensure_annotations
 def load_json(path: Path) -> ConfigBox:
     with open(path) as f:
-        content= json.load(f)
+        content = json.load(f)
     logger.info(f"json file is loaded successfully at: {path}")
     return ConfigBox(content)
 
