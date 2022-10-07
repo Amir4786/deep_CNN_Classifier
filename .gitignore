@@ -146,3 +146,4 @@ artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-09-29-16-45-40/v
 artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-09-30-18-23-04/train/events.out.tfevents.1664542390.LAPTOP-KQJGA3BK.19896.0.v2
 artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-09-30-18-23-04/validation/events.out.tfevents.1664547938.LAPTOP-KQJGA3BK.19896.1.v2
 .dvcignore
+prediction_service/model.h5
